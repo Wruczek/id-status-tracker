@@ -46,7 +46,7 @@ $telegramChatId = "000000000";
 **By otrzymać token:**
 - Zagadaj do <a href="https://telegram.me/botfather" target="_blank">BotFathera</a>
 - Stwórz nowego bota komendą `/newbot`, śledź polecenia Ojca
-- Skopiuj token i wklej go do configi.
+- Skopiuj token i wklej go do configu.
 
 **By otrzymac chatId: <a href="https://stackoverflow.com/a/32572159/5381375" target="_blank">klik</a>**
 
