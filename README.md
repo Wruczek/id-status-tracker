@@ -44,11 +44,11 @@ $telegramChatId = "000000000";
 `$telegramChatId` - ID chatu, do którego bot powinien wysyłać powiadomienia
 
 **By otrzymać token:**
-- Zagadaj do [BotFathera](https://telegram.me/botfather)
+- Zagadaj do <a href="https://telegram.me/botfather" target="_blank">BotFathera</a>
 - Stwórz nowego bota komendą `/newbot`, śledź polecenia Ojca
-- Skopiuj token i wklej go w config.
+- Skopiuj token i wklej go do configi.
 
-**By otrzymac chatId: [klik](https://stackoverflow.com/a/32572159/5381375)**
+**By otrzymac chatId: <a href="https://stackoverflow.com/a/32572159/5381375" target="_blank">klik</a>**
 
 ### Uruchom
 W folderze z programem:
