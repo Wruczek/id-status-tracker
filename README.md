@@ -2,6 +2,10 @@
 
 Prosty programik śledzący status wniosku o dowód osobisty. Wysyła powiadomienia o zmianie statusu na [Telegram](https://telegram.org/)ie
 
+<a href="https://i.imgur.com/vckPwq0.png" target="_blank">
+  <img src="https://i.imgur.com/vckPwq0.png" width="300px">
+</a>
+
 ### Użytkowanie
 
 #### Potrzebujesz:
