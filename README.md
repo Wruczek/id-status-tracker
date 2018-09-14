@@ -6,7 +6,7 @@ Prosty programik śledzący status wniosku o dowód osobisty. Wysyła powiadomie
   <img src="https://i.imgur.com/vckPwq0.png" width="300px">
 </a>
 
-### Użytkowanie
+## Użytkowanie
 
 #### Potrzebujesz:
 - serwer, na którym chcesz właczyć bota. Może być to serwer VPS lub twój komputer. Pamiętaj, by otrzymać powiadomienia, program musi być włączony.
@@ -56,3 +56,15 @@ W folderze z programem:
 chmod +x start.sh
 ./start.sh
 ```
+
+Sprawdź status programu, czy wszystko włączyło się poprawnie:
+```
+screen -r id-tracker-bot
+```
+
+**Jeżeli wszystko działa prawidłowo, otrzymasz wiadomość z aktualnym statusem dowodu.**
+
+### Wyłączenie bota
+
+- Przejdź na screen bota: `screen -r id-tracker-bot`<br>
+- Naciśnij <kbd>CTRL + C</kbd>
