@@ -19,7 +19,7 @@ sudo apt install php-fpm php-json
 
 ### Instalacja id-status-checker
 ```
-sudo apt install unzip -y
+sudo apt install unzip screen
 wget https://github.com/Wruczek/id-status-tracker/archive/master.zip
 unzip master.zip
 rm master.zip
@@ -38,6 +38,13 @@ $telegramChatId = "000000000";
 `$applicationId` - ID wniosku o dowód osobisty<br>
 `$telegramBotToken` - Token twojego bota na Telegramie<br>
 `$telegramChatId` - ID chatu, do którego bot powinien wysyłać powiadomienia
+
+**By otrzymać token:**
+- Zagadaj do [BotFathera](https://telegram.me/botfather)
+- Stwórz nowego bota komendą `/newbot`, śledź polecenia Ojca
+- Skopiuj token i wklej go w config.
+
+**By otrzymac chatId: [klik](https://stackoverflow.com/a/32572159/5381375)**
 
 ### Uruchom
 W folderze z programem:
