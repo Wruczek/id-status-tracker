@@ -61,10 +61,11 @@ Sprawdź status programu, czy wszystko włączyło się poprawnie:
 ```
 screen -r id-tracker-bot
 ```
+**Jeżeli wszystko skonfigurowałeś prawidłowo, powinieneś otrzymać dwie wiadomości od bota:**
+- informację, że bot został uruchomiony poprawnie
+- przy pierwszym uruchomieniu: aktualny status dowodu osobistego
 
-**Jeżeli wszystko działa prawidłowo, otrzymasz wiadomość z aktualnym statusem dowodu.**
-
-### Wyłączenie bota
+### Zatrzymanie bota
 
 - Przejdź na screen bota: `screen -r id-tracker-bot`<br>
 - Naciśnij <kbd>CTRL + C</kbd>
