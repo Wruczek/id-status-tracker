@@ -27,6 +27,8 @@ class IdStatusTracker {
         $this->tracker = new ObywatelApi();
         $this->telegram = new TelegramApi($this->telegramBotToken);
 
+        $this->telegram->sendMarkdownMessage($this->telegramChatId, "Bot has been successfully started 👌");
+        
         while (true) {
             $this->checkStatus();
             sleep($this->checkInterval);
