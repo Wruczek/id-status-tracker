@@ -14,8 +14,7 @@ $cacheFile = __DIR__ . "/idTrackerCache.txt";
 $checkInterval = 300;
 // End of config
 
-touch($cacheFile);
-if (!is_writable($cacheFile)) {
+if (!touch($cacheFile) || !is_writable($cacheFile)) {
     echo "$cacheFile must be writable" . PHP_EOL;
     exit;
 }
