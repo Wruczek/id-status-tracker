@@ -21,7 +21,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install php-fpm php-json
 ```
 
-### Instalacja id-status-checker
+### Instalacja id-status-tracker
 ```
 sudo apt install unzip screen
 wget https://github.com/Wruczek/id-status-tracker/archive/master.zip
